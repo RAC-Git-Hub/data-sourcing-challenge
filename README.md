@@ -22,7 +22,8 @@ computer. Then take the following steps:
 >-  Ensure the .env file is not listed when you perform a git status check on
 >   the repo, before performing your git add action.
 >-  Push these changes to GitHub or GitLab.
->   **NOTE**
+>  
+>**NOTE**
 >       The CSV file included in the output folder in your starter files is to
 >       help you identify how your final CSV file should be structured. Do not
 >       copy this file to your own repo. You will instead upload the CSV file
