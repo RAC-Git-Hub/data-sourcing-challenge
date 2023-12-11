@@ -102,10 +102,10 @@ file.
 >-  Print a message to indicate that the application is sleeping.
 >3. Loop through the titles list created from the movie reviews DataFrame, and
 >perform the following actions:
->-*  Perform the actions outlined in Step 2.
->-*  Perform a GET request that sends the title to The Movie Database search and
+>-  Perform the actions outlined in Step 2.
+>-  Perform a GET request that sends the title to The Movie Database search and
 >   retrieves the JSON results.
->-*  Use a try clause that performs the following actions:
+>-  Use a try clause that performs the following actions:
 >   -   Collect the movie ID from the first result.
 >   -   Make a GET request using the movie query (starting with
 >       https://api.themoviedb.org/3/movie/ ) and movie ID to retrieve the full
