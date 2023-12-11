@@ -55,6 +55,7 @@ file.
 >-  Make a GET request to retrieve the page of results, and store the JSON data
 >   in a variable called reviews.
 >-  Add a 12-second interval between queries to stay within API query limits.
+>
 >   **Important:** The New York Times limits requests to 500 per day and 5 per
 >   minute.
 >-  Write a try-except clause that performs the following actions:
