@@ -24,6 +24,7 @@ computer. Then take the following steps:
 >-  Push these changes to GitHub or GitLab.
 >  
 >**NOTE**
+>
 >       The CSV file included in the output folder in your starter files is to
 >       help you identify how your final CSV file should be structured. Do not
 >       copy this file to your own repo. You will instead upload the CSV file
