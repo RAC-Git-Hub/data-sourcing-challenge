@@ -34,6 +34,7 @@ computer. Then take the following steps:
 >-  Part 1: Access the New York Times API.
 >-  Part 2: Access The Movie Database API.
 >-  Part 3: Merge and Clean the Data for Export.
+>
 >The starter code includes importing the required dependencies and your API keys
 from your .env file, but you will need to ensure your API keys are added to that
 file.
@@ -44,7 +45,10 @@ file.
 >you build your query_url using these variables.
 >
 >If you accidentally delete these variables, they are:
+>
+>
 >![Photo_6_001](https://github.com/RAC-Git-Hub/data-sourcing-challenge/blob/main/Photo_6_001.png)
+>
 >
 >2. Create an empty list called reviews_list to store the reviews you retrieve
 >   from the API.
@@ -59,9 +63,9 @@ file.
 >   **Important:** The New York Times limits requests to 500 per day and 5 per
 >   minute.
 >-  Write a try-except clause that performs the following actions:
->   *   try : loop through the reviews["response"]["docs"] and append each
->   *   review to the list, then print out the query page number (i.e. the
->   *   number of times the loop has executed).
+>       *   try : loop through the reviews["response"]["docs"] and append each
+>       *   review to the list, then print out the query page number (i.e. the
+>       *   number of times the loop has executed).
 >-  except : Print the page number that had no results then break from the loop.
 >   **Note:** If your loop breaks at the except clause, it is possible you have
 >   tried to make a request that fell outside of the rate limit. You should be
