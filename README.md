@@ -68,6 +68,7 @@ file.
 >       *   number of times the loop has executed).
 >       *   except : Print the page number that had no results then break from
 >       the loop.
+>
 >       ***Note:** If your loop breaks at the except clause, it is possible you
 >       have tried to make a request that fell outside of the rate limit. You
 >       should be able to loop through all 20 pages with the provided query
