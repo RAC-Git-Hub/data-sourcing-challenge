@@ -60,7 +60,7 @@ file.
 >   in a variable called reviews.
 >-  Add a 12-second interval between queries to stay within API query limits.
 >
->   ***Important:** The New York Times limits requests to 500 per day and 5 per
+>   **Important:** The New York Times limits requests to 500 per day and 5 per
 >   minute.
 >-  Write a try-except clause that performs the following actions:
 >       *   try : loop through the reviews["response"]["docs"] and append each
@@ -69,7 +69,7 @@ file.
 >       *   except : Print the page number that had no results then break from
 >       the loop.
 >
->       ***Note:** If your loop breaks at the except clause, it is possible you
+>       **Note:** If your loop breaks at the except clause, it is possible you
 >       have tried to make a request that fell outside of the rate limit. You
 >       should be able to loop through all 20 pages with the provided query
 >       parameters.
