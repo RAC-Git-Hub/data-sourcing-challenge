@@ -158,8 +158,8 @@ file.
 >-  Create a list of the columns that need fixing called columns_to_fix.
 >-  Create a list of characters to remove called characters_to_remove.
 >-  Loop through columns_to_fix and do the following:
->       *       Use astype() to convert the column to a string.
->       *       Loop through the characters_to_remove and use the Pandas
+>       *   Use astype() to convert the column to a string.
+>       *   Loop through the characters_to_remove and use the Pandas
 >       str.replace() method to remove the character from the string.
 >-  Print the head of the updated DataFrame to confirm the list characters were
 >removed.
