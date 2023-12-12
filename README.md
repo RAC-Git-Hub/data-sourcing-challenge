@@ -123,23 +123,23 @@ file.
 >-  Perform a GET request that sends the title to The Movie Database search and
 >   retrieves the JSON results.
 >-  Use a try clause that performs the following actions:
->       *       Collect the movie ID from the first result.
->       *       Make a GET request using the movie query (starting with
+>       *    Collect the movie ID from the first result.
+>       *    Make a GET request using the movie query (starting with
 >       https://api.themoviedb.org/3/movie/ ) and movie ID to retrieve the full
 >       movie details in JSON format.
->       *       Extract the genre names from the results into a list called
+>       *    Extract the genre names from the results into a list called
 >       genres.
->       *       Extract the spoken_languages' English name from the results
+>       *    Extract the spoken_languages' English name from the results
 >       into a list called spoken_languages.
->       *       Extract the production_countries' name from the results into a
+>       *    Extract the production_countries' name from the results into a
 >       list called production_countries.
->       *       Create a dictionary with the following results: title,
+>       *    Create a dictionary with the following results: title,
 >       original_title, budget, original_language, homepage, overview,
 >       popularity, runtime, revenue, release_date, vote_average, vote_count, as
 >       well as the genres, spoken_languages, and production_countries lists you
 >       just created.
->       *       Append this dictionary to tmdb_movies_list.
->       *       Print out the name of the movie and a message to indicate that
+>       *    Append this dictionary to tmdb_movies_list.
+>       *    Print out the name of the movie and a message to indicate that
 >       the title was found.
 >
 >-  Use the except clause to print out a statement if a movie is not found.
