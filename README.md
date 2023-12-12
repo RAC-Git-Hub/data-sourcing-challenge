@@ -80,11 +80,14 @@ file.
 >   column "title" . To do this, you will use the Pandas apply() method and the
 >   following lambda function:
 >
+>
 >![Photo_6_002](https://github.com/RAC-Git-Hub/data-sourcing-challenge/blob/main/Photo_6_002.png)
+>
 >
 >This code takes the string in the cell and extracts the characters between the
 >unicode quotation marks, as long as a space and the word "Review" follows the
 >closing quotation mark.
+>
 >7. Use the supplied extract_keywords function to convert the "keywords" column
 >   from a list of dictionaries to strings using the apply() method.
 >8. Create a list called titles from the "title" column using to_list() . These
@@ -98,9 +101,13 @@ file.
 >   of this query is included in your starter code, as follows, but you will
 >   need to include the movie title in the query.
 >
+>
 >![Photo_6_003](https://github.com/RAC-Git-Hub/data-sourcing-challenge/blob/main/Photo_6_003.png)
 >
->-  The movie query is made once you have the movie ID
+>
+>-  The movie query is made once you have the movie ID.
+>
+>
 >You will use the titles list created in Part 1 to perform your queries with The
 >Movie Database.
 >1. Create an empty list called tmdb_movies_list to store the results from your
@@ -116,22 +123,25 @@ file.
 >-  Perform a GET request that sends the title to The Movie Database search and
 >   retrieves the JSON results.
 >-  Use a try clause that performs the following actions:
->   -   Collect the movie ID from the first result.
->   -   Make a GET request using the movie query (starting with
+>       *       Collect the movie ID from the first result.
+>       *       Make a GET request using the movie query (starting with
 >       https://api.themoviedb.org/3/movie/ ) and movie ID to retrieve the full
 >       movie details in JSON format.
->   -   Extract the genre names from the results into a list called genres.
->   -   Extract the spoken_languages ' English name from the results into a list
->       called spoken_languages.
->   -   Extract the production_countries ' name from the results into a list
->       called production_countries.
->   -   Create a dictionary with the following results: title, original_title,
->       budget, original_language, homepage, overview, popularity, runtime,
->       revenue, release_date, vote_average, vote_count, as well as the genres,
->       spoken_languages, and production_countries lists you just created.
->   -   Append this dictionary to tmdb_movies_list.
->   -   Print out the name of the movie and a message to indicate that the title
->       was found.
+>       *       Extract the genre names from the results into a list called
+>       genres.
+>       *       Extract the spoken_languages' English name from the results
+>       into a list called spoken_languages.
+>       *       Extract the production_countries' name from the results into a
+>       list called production_countries.
+>       *       Create a dictionary with the following results: title,
+>       original_title, budget, original_language, homepage, overview,
+>       popularity, runtime, revenue, release_date, vote_average, vote_count, as
+>       well as the genres, spoken_languages, and production_countries lists you
+>       just created.
+>       *       Append this dictionary to tmdb_movies_list.
+>       *       Print out the name of the movie and a message to indicate that
+>       the title was found.
+>
 >-  Use the except clause to print out a statement if a movie is not found.
 >4. Preview the first five results in JSON format using json.dumps with the
 >argument indent=4 to format the data.
@@ -148,9 +158,9 @@ file.
 >-  Create a list of the columns that need fixing called columns_to_fix.
 >-  Create a list of characters to remove called characters_to_remove.
 >-  Loop through columns_to_fix and do the following:
->   -   Use astype() to convert the column to a string.
->   -   Loop through the characters_to_remove and use the Pandas str.replace()
-        method to remove the character from the string.
+>       *       Use astype() to convert the column to a string.
+>       *       Loop through the characters_to_remove and use the Pandas
+>       str.replace() method to remove the character from the string.
 >-  Print the head of the updated DataFrame to confirm the list characters were
 >removed.
 >3. Delete any duplicate rows and reset the index.
